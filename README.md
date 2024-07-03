@@ -1,0 +1,1 @@
+- there a general question solved like factorial , fibonacci , prime number check.
