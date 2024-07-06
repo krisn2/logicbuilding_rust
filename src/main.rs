@@ -36,6 +36,12 @@ fn fibonacci(num:u64) -> u64 {
     b
 }
 
+fn palidrome(num:u64) -> bool {
+    let original_val = num.to_string();
+    let reverse_val : String = original_val.chars().rev().collect();
+    original_val == reverse_val
+}
+
 
 
 fn main() {
@@ -46,4 +52,10 @@ fn main() {
  println!("Factorial of {} is {}", number, factorial_result);
  println!("Is {} prime number {}", number, prime_result);
  println!("Fibonacci of {} is {}", number, fibonacci_result);
+
+
+ let number_pali = 12321;
+ let result = palidrome(number_pali);
+ println!("{} is palidrome {}", number_pali, result);
+
 }
