@@ -1,1 +1,2 @@
 - there a general question solved like factorial , fibonacci , prime number check.
+- And also pattern printing.
