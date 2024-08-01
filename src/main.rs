@@ -24,4 +24,6 @@ fn main() {
     pattern::invert_half_pyramid(num);
     pattern::half_180deg_rot(num); 
 
+    pattern::butterfly(num);
+
 }

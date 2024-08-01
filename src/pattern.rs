@@ -47,3 +47,35 @@ pub fn half_180deg_rot(num:u8){
 }
 
 
+pub fn butterfly (num:u8){
+   
+    for i in 1..=num {
+        for _ in 1..=i {
+            print!(" * ");
+        }
+        let space = 2*num - 2*i;
+        for _j in 1..=space {
+            print!("   ");
+        }
+        for _k in 1..=i {
+            print!(" * ");
+        }
+        println!();
+
+    }
+    for i in (1..=num).rev() {
+        for _ in 1..=i {
+            print!(" * ");
+        }
+        let space = 2*num - 2*i;
+        for _j in 1..=space{
+            print!("   ");
+        }
+        for _k in 1..=i {
+            print!(" * ");
+        }
+        println!();
+
+    }
+
+}
