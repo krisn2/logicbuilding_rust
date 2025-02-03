@@ -1,5 +1,6 @@
 pub mod number_qu;
 pub mod pattern;
+pub mod findodd;
 fn main() {
     // number_questions
 
@@ -25,5 +26,7 @@ fn main() {
     pattern::half_180deg_rot(num); 
 
     pattern::butterfly(num);
+
+    findodd::find_odd_in_arr();
 
 }
